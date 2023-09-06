@@ -1,0 +1,76 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0055A4;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.about-us, .mission-vision, .leadership {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.about-us h2, .mission-vision h2, .leadership h2 {
+    color: #0055A4;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-us p, .mission-vision p, .leadership p {
+    margin-bottom: 20px;
+}
+
+
+footer {
+    background-color: #0055A4;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+nav {
+    				background-color: #333;
+    				color: #FFF;
+    				text-align: center;
+    				padding: 20px 0;
+  					}
+  			nav a {
+    				color: #FFF;
+    				text-decoration: none;
+    				margin: 0 10px;
+					}

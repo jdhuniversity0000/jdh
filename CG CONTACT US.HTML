@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Contact Us</title>
+		<link rel="stylesheet" href="contactuscss.css">
+    </head>
+    <body>
+	<nav>
+		<a href="file:///D:/daksh/project2/index.html.html">BACK TO HOME</a>
+		</nav>
+    <div class="container">
+        <h1>Contact Us</h1>
+        
+        <div class="contact-info">
+            <div class="contact-icon">&#128204;</div>
+            <div>
+                <h2>Address</h2>
+                <p>J.D.H University,<br>Sanand Chowk <br> Ahmedabad,<br> Gujrat<br>India</p>
+            </div>
+        </div>
+        
+        <div class="contact-info">
+            <div class="contact-icon">&#128231;</div>
+            <div>
+                <h2>Email</h2>
+                <p><a href="mailto:j.d.h_trust1999@gmil.com">j.d.h_trust1999@edu.in</a></p>
+            </div>
+        </div>
+        
+        <div class="contact-info">
+            <div class="contact-icon">&#x260E;</div>
+            <div>
+                <h2>Phone</h2>
+                <p><a href="tel:+91-98635-57690">+91-98635-57690</a></p>
+            </div>
+        </div>
+        
+        <h2>Get in Touch</h2>
+        <form action="/submit_contact" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    </body>
+</html>
